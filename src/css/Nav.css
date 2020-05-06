@@ -1,0 +1,26 @@
+.Nav{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.Nav > div {
+    height: 100%;
+}
+
+.nav-list-box{
+    position: relative;
+}
+
+.nav-list{
+    position: absolute;
+    width: fit-content;
+    top: 30%;
+    left: 50%;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5em;
+    font-size: 10px;
+}
